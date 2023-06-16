@@ -12,13 +12,27 @@
 - controller : 'sudo apt-get install ros-noetic-controller-*'
 - husky : 'sudo apt-get install ros-noetic-husky*'
 
-Create workspace:
-Buka terminal (Ctrl+Alt+T)
-Buat folder catkin_ws di home (mkdir catkin_ws)
-cd catkin_ws
-Buat folder src (mkdir src)
-Extract zip ke dalam src
-catkin_make (untuk mengcompile)
+## Installation
+
+1. Create a Catkin workspace (if not already present)
+  ```bash
+  $ mkdir -p catkin_ws/src
+  '''
+2. Change directory to the source space (`src`) of your Catkin workspace
+  ```bash
+  $ cd catkin_ws/src
+  ```
+3. Clone this repository:
+  ```bash
+  $ git clone https://github.com/Tinker-Twins/Husky.git
+  ```
+4. Change directory back to the Catkin workspace:
+  ```bash
+  $ cd ..
+  ```
+5. Build the packages:
+  ```bash
+  $ catkin_make
 
 Run the program:
 Ctrl+Alt+T
