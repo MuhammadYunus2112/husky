@@ -39,14 +39,13 @@
 1. Run the program:
   Ctrl+Alt+T
   cd catkin_ws 
-  '''source devel/setup.bash'''
+  source devel/setup.bash
 2. Run :
-    ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch  
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation gmapping_demo.launch
-    $ rosrun trajectory_details_recorder make_plan.py
-    ```
+$ roslaunch husky_gazebo husky_playpen.launch  
+$ roslaunch husky_viz view_robot.launch
+$ roslaunch husky_navigation gmapping_demo.launch
+$ rosrun trajectory_details_recorder make_plan.py
+    
  
 ## RRT configuration
 1. Open folder catkin_ws/src/husky/husky_navigation/config
