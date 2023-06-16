@@ -1,16 +1,16 @@
-Please install this packages:
+##Please install this packages:
 
-- fath_pivot_mount_description: 'sudo apt-get install ros-noetic-gazebo-*'
-- fath_pivot_mount_description: 'sudo apt-get install ros-noetic-gmapping*'
-sudo apt-get install ros-noetic-robot-state-*
-sudo apt-get install ros-noetic-joint-*
-sudo apt-get install ros-noetic-move-base*
-sudo apt-get install ros-noetic-nav*
-sudo apt-get install ros-noetic-dwa-local-planner
-sudo apt-get install ros-noetic-teb*
-sudo apt-get install ros-noetic-costmap-*
-sudo apt-get install ros-noetic-controller-*
-sudo apt-get install ros-noetic-husky*
+- gazebo: 'sudo apt-get install ros-noetic-gazebo-*'
+- gmapping: 'sudo apt-get install ros-noetic-gmapping*'
+- robot state: 'apt-get install ros-noetic-robot-state-*'
+- joint : 'sudo apt-get install ros-noetic-joint-*'
+- move base : 'sudo apt-get install ros-noetic-move-base*'
+- navigation : 'sudo apt-get install ros-noetic-nav*'
+- local planner : 'sudo apt-get install ros-noetic-dwa-local-planner'
+- teb : 'sudo apt-get install ros-noetic-teb*'
+- costmap : 'sudo apt-get install ros-noetic-costmap-*'
+- controller : 'sudo apt-get install ros-noetic-controller-*'
+- husky : 'sudo apt-get install ros-noetic-husky*'
 
 Create workspace:
 Buka terminal (Ctrl+Alt+T)
