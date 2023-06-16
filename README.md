@@ -1,7 +1,7 @@
 Please install this packages:
 
-'sudo apt-get install ros-noetic-gazebo-*'
-'sudo apt-get install ros-noetic-gmapping*'
+- fath_pivot_mount_description: 'sudo apt-get install ros-noetic-gazebo-*'
+- fath_pivot_mount_description: 'sudo apt-get install ros-noetic-gmapping*'
 sudo apt-get install ros-noetic-robot-state-*
 sudo apt-get install ros-noetic-joint-*
 sudo apt-get install ros-noetic-move-base*
