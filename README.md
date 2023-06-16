@@ -33,36 +33,32 @@
 5. Build the packages:
   ```bash
   $ catkin_make
+'''
 
 ## Usage:
 
 1. Run the program:
   Ctrl+Alt+T
   cd catkin_ws 
-2. Keyboard Teleoperation:
+  '''source devel/setup.bash'''
+2. Run :
     ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_control teleop_keyboard.launch
+    $ roslaunch husky_gazebo husky_playpen.launch  
+    $ roslaunch husky_viz view_robot.launch
+    $ roslaunch husky_navigation gmapping_demo.launch
+    $ rosrun trajectory_details_recorder make_plan.py
     ```
-source devel/setup.bash
-roslaunch husky_gazebo husky_playpen.launch
-Ctrl+Alt+T
-cd catkin_ws 
-source devel/setup.bash
-roslaunch husky_navigation gmapping_demo.launch
-Ctrl+Alt+T
-cd catkin_ws 
-source devel/setup.bash
-roslaunch husky_viz view_robot.launch
-di rviz, klik 2D Nav Goal lalu click dimana saja Anda ingin menjalankan robot 
-
-RRT configuration
+ 
+##RRT configuration
 Open folder catkin_ws/src/husky/husky_navigation/config
 Di dalam folder tersebut, Anda dapat menemukan planner.yaml
 Di dalam planner.yaml, ada RRTStartPlanner yang di bawahnya adalah parameter yang berkaitan
-method = 0 adalah RRT* dan method = 1 adalah RRT
+method = 0 adalah RRT* dan method = 1 adalah RRT method = 2
 
-Kode yang mengimplementasikan algoritma RRT ada di:
+###Kode yang mengimplementasikan algoritma RRT ada di:
 catkin_ws/src/rt_star_global_planner/src/rrt_star.cpp
+
+###Setting titik tujuan
+catkin_ws/src/trajectory_details_recorder/script/smake_plan.py
 
 
