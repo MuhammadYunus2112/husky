@@ -16,8 +16,7 @@
 
 1. Create a Catkin workspace (if not already present)
   ```bash
-  $ mkdir -p catkin_ws/src
-  '''
+  $ mkdir -p catkin_ws/src'''
 2. Change directory to the source space (`src`) of your Catkin workspace
   ```bash
   $ cd catkin_ws/src
@@ -50,10 +49,10 @@
     ```
  
 ## RRT configuration
-Open folder catkin_ws/src/husky/husky_navigation/config
+1. Open folder catkin_ws/src/husky/husky_navigation/config
 Di dalam folder tersebut, Anda dapat menemukan planner.yaml
 Di dalam planner.yaml, ada RRTStartPlanner yang di bawahnya adalah parameter yang berkaitan
-method = 0 adalah RRT* dan method = 1 adalah RRT method = 2
+2. method = 0 adalah RRT* dan method = 1 adalah RRT method = 2
 
 ## Kode yang mengimplementasikan algoritma RRT ada di:
 catkin_ws/src/rt_star_global_planner/src/rrt_star.cpp
