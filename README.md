@@ -1,4 +1,4 @@
-##Please install this packages:
+## Please install this packages:
 
 - gazebo: 'sudo apt-get install ros-noetic-gazebo-*'
 - gmapping: 'sudo apt-get install ros-noetic-gmapping*'
@@ -31,7 +31,7 @@
   ```
 5. Build the packages:
   ```bash
-  $ catkin_make
+  $ catkin_make'''
 
 
 ## Usage:
@@ -59,5 +59,6 @@ catkin_ws/src/rt_star_global_planner/src/rrt_star.cpp
 
 ## Setting titik tujuan
 catkin_ws/src/trajectory_details_recorder/script/smake_plan.py
+
 
 
