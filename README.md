@@ -24,7 +24,7 @@
   ```
 3. Clone this repository:
   ```bash
-  $ git clone https://github.com/Tinker-Twins/Husky.git
+  $ git clone husky, rrt_star_global_planner, trajectory_details_recorder
   ```
 4. Change directory back to the Catkin workspace:
   ```bash
@@ -34,9 +34,16 @@
   ```bash
   $ catkin_make
 
-Run the program:
-Ctrl+Alt+T
-cd catkin_ws 
+## Usage:
+
+1. Run the program:
+  Ctrl+Alt+T
+  cd catkin_ws 
+2. Keyboard Teleoperation:
+    ```bash
+    $ roslaunch husky_gazebo husky_playpen.launch
+    $ roslaunch husky_control teleop_keyboard.launch
+    ```
 source devel/setup.bash
 roslaunch husky_gazebo husky_playpen.launch
 Ctrl+Alt+T
