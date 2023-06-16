@@ -49,16 +49,16 @@
     $ rosrun trajectory_details_recorder make_plan.py
     ```
  
-##RRT configuration
+## RRT configuration
 Open folder catkin_ws/src/husky/husky_navigation/config
 Di dalam folder tersebut, Anda dapat menemukan planner.yaml
 Di dalam planner.yaml, ada RRTStartPlanner yang di bawahnya adalah parameter yang berkaitan
 method = 0 adalah RRT* dan method = 1 adalah RRT method = 2
 
-###Kode yang mengimplementasikan algoritma RRT ada di:
+## Kode yang mengimplementasikan algoritma RRT ada di:
 catkin_ws/src/rt_star_global_planner/src/rrt_star.cpp
 
-###Setting titik tujuan
+## Setting titik tujuan
 catkin_ws/src/trajectory_details_recorder/script/smake_plan.py
 
 
